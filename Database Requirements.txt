@@ -1,0 +1,15 @@
+--Please add the following Sql code to your Database in order to recieve the desired output of the Website  
+ 
+UPDATE  `artworks` SET ImageFileName=concat(ImageFileName,'.jpg');
+ALTER TABLE `artists` ADD `Image` VARCHAR(50) NULL AFTER `ArtistID`;
+UPDATE artists SET Image=ArtistID;
+UPDATE  `artists` SET Image=concat(Image,'.jpg');
+ALTER TABLE `reviews` ADD `Favorite` BOOLEAN NULL AFTER `Comment`;
+ALTER TABLE `genres` ADD `GenreImage` VARCHAR(50) NULL AFTER `Link`;
+UPDATE genres SET GenreImage=GenreID;
+UPDATE  `genres` SET GenreImage=concat(GenreImage,'.jpg');
+ALTER TABLE `customerlogon` ADD `Admin` VARCHAR(50) NULL DEFAULT NULL AFTER `DateLastModified`;
+ALTER TABLE `customers` CHANGE `CustomerID` `CustomerID` INT(11) NOT NULL AUTO_INCREMENT;
+UPDATE `customerlogon` SET `Admin` = 'Master' WHERE `customerlogon`.`CustomerID` = 1;
+
+-- After adding the Code in your sql DB, Login with the Master Account (CustomerID=1) in order to possess the main Administrator's rights.

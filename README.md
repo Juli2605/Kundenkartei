@@ -18,4 +18,6 @@ Nach der Installation öffnen Sie Xampp Control Panel, klicken auf Admin in MySq
 ### Kundenkartei navigieren  
 
 Laden Sie den gesamten Repository (Kundenkartei) von GitHub auf ihrem PC und speichern Sie diesen Ordner in Ihrem **xampp** ordener unter **htdocs** beispielsweise *C:\xampp\htdocs* 
-Rufen Sie die Website auf ihre Browser auf in dem Sie localhost/Kundenkartei eingeben. Anweisungen zu der Verwendung des Projektes sind unter der PDF-Datei Code Documentation.pdf (https://github.com/Juli2605/Kundenkartei/blob/main/Code%20Documentation.%20%20(2).pdf) gegeben.  
+Rufen Sie die Website auf ihre Browser auf in dem Sie localhost/Kundenkartei eingeben. Anweisungen zu der Verwendung des Projektes sind unter der PDF-Datei Code Documentation.pdf (https://github.com/Juli2605/Kundenkartei/blob/main/Code%20Documentation.%20%20(2).pdf) gegeben. 
+
+(Admin: Username- luisg@embraer.com.br , Password - abcd1234)

@@ -5,7 +5,7 @@ In diesem Projekt wird eine Webapplikation für ein
 fiktive Website konzipiert und implementiert, die Reproduktionen berühmter Kunstklassiker verkauft. Einige Teile der Website werden
 öffentlich zugänglich; andere Teile der Site stehen nur Site-Administratoren zur Verfügung. 
 
-## Installationund Verwendung  
+## Installation und Verwendung  
 
 ### Server und Datenbank anlegen 
 
